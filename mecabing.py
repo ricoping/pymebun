@@ -49,8 +49,6 @@ def mecab2obj(sentence):
 	sorted_data = sorted(data, key=lambda x: x["count"], reverse=True)
 	return sorted_data
 
-print(mecab2obj("私は太朗です"))
-
 def has_word(word, doc):
 	data = mecab2obj(doc)
 	for d in data:
