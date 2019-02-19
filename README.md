@@ -6,7 +6,7 @@ You can get a result of mecab as python object without python-mecab library.
 You just need to install mecab v0.996 on your linux environment.
  </p>
 <p>
-You can get a list of dictionary that contains noun, adverb and so on by using *mecab2obj function*. And it also contains data about how many times a word exists in sentence you input.
+You can get a list of dictionary that contains noun, adverb and so on by using *mecab2obj function*. And it also contains data about how many times a word s in sentence you input.
  </p>
 <p>
 Both mecabing.bash and mecabing.py are required to be on the same directory.
